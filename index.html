@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Smart</title>
+    <!-- Tailwind and daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/6327d2102b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="bg-amber-400">
+        <!-- nav section -->
+         <nav class="w-11/12 lg:w-4/5 py-3 mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <ul class="menu menu-horizontal px-1">
+                        <a class="w-11/12 lg:hidden">
+                            <img src="./assets/logo.svg" alt="">
+                        </a>
+                      </ul>
+                   <ul class="lg:flex gap-x-16 text-lg hidden">
+                    <li>
+                        <a href="#" class="hover:opacity-80">Home</a>
+                    </li>
+                    <li><a href="#" class="hover:opacity-80">Contact</a></li>
+                   </ul>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <a class="w-11/12">
+                        <img src="./assets/logo.svg" alt="">
+                    </a>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                   <div class="hidden lg:flex flex-row gap-x-16 justify-center items-center">
+                    <a href="#" class="text-lg hover:opacity-80">Login</a>
+                    <button class="btn px-8 rounded-md bg-green-900 text-white border-none font-normal text-lg shadow-lg hover:shadow-none hover:bg-green-900">
+                        <a href="#" class="">
+                            Sign Up
+                        </a>
+                    </button>
+                   </div> 
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-amber-400 rounded-box z-[1] mt-3 p-2 shadow -left-24 w-40">
+                      <li>
+                        <a href="#" class="hover:opacity-80">Home</a>
+                    </li>
+                    <li><a href="#" class="hover:opacity-80">Contact</a></li>
+                    <li><a href="#" class="hover:opacity-80">Login</a></li>
+                    <li>
+                        <button class="btn px-8 rounded-md bg-green-900 text-white border-none font-normal text-lg shadow-lg hover:shadow-none hover:bg-green-900">
+                            <a href="#" class="">
+                                Sign Up
+                            </a>
+                        </button>
+                    </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+         </nav>
+    </header>
+    <section class="bg-gradient-to-b from-amber-400 to-amber-600 relative">
+        <div class="lg:w-4/5 w-11/12 mx-auto">
+            <div class="grid grid-rows-1 relative top-48 lg:top-60">
+                <img src="./assets/couch.png" alt="" class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto">
+                <img src="./assets/app.svg" alt="" class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto relative -top-32 w-2/5 lg:w-auto">
+                <button class="btn bg-amber-400 border-none rounded-md font-normal flex flex-row gap-3 px-8 absolute lg:w-1/6 bottom-9 left-20 ml-3 lg:bottom-4 lg:left-96 lg:ml-64 ">
+                    <i class="fa-solid fa-download"></i>
+                    <a href="#">Download The App</a>
+                </button>
+            </div>
+        </div>
+     </section>
+     <section class="bg-[#262626] h-[80vh]">
+
+     </section>
+
+
+
+</body>
+
+</html>
